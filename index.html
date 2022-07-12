@@ -68,7 +68,7 @@
       </div>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <h2 class="modal-header">Оставьте свои данные, мы вам перезвоним</h2>
+          <p class="modal-header">Оставьте свои данные, мы вам перезвоним</p>
           <form class="modal-form">
           <div class="modal-form-name">
             <label class="modal-form-row">
@@ -113,11 +113,7 @@
           <div class="modal-form-name">
             <label class="modal-form-row">
               <span class="row-title">Комментарий</span> 
-              <textarea 
-              class="msg" 
-              name="Комментарий" 
-              rows="10"
-              placeholder="Введите текст">
+              <textarea class="msg" name="Комментарий" rows="10" placeholder="Введите текст">
             </textarea>
                </label>
           </div>
@@ -133,11 +129,19 @@
               <button class="modal-form-btn" type="submit">Отправить</button>
              
           
+
+
+              
           <button class="modal-btn" data-modal-close>
-          <svg width="30" height="30">
+          <svg class="icon-close-btn" width="30" height="30">
             <use href="./images/icon.svg#icon-close-btn"></use>
           </svg>
           </button>
+
+
+
+
+
         </div>
       </div>
     </section>
@@ -490,8 +494,9 @@
       </ul>
     </div>
       <form class="footer-sub">
+        <p class="footer-email-input">Подпишитесь на рассылку</p>
+        <div class="footer-submit-container">
         <label class="footer-sub-label">
-          <span class="footer-email-input">Подпишитесь на рассылку</span>
           <input class="footer-input" type="text" name="email" placeholder="E-mail"/>
           </label>
           
@@ -501,6 +506,7 @@
               </use>
             </svg>
           </button>
+        </div>
       </form>
     </div>
   </footer>
